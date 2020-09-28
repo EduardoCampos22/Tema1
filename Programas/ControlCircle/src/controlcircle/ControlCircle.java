@@ -39,7 +39,7 @@ public class ControlCircle extends Application
         Button bAumenta = new Button("Enlarge");
         Button bDisminuye = new Button("Shrink");
         
-        // 
+        // Captura los eventos de los botones
         bAumenta.setOnAction(new EnlargeHandler());
         bDisminuye.setOnAction(new ShrinkHandler());
         
