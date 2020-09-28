@@ -6,6 +6,8 @@
 package controlcircle;
 
 import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.scene.control.Button;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
@@ -46,6 +48,22 @@ public class ControlCircle extends Application
     
     public static void main(String[] args) {
         launch(args);
+    }
+
+    private static class EnlargeHandler implements EventHandler<ActionEvent> 
+    {
+        public EnlargeHandler() 
+        {
+            
+        }
+    }
+    
+    private static class ShrinkHandler implements EventHandler<ActionEvent> 
+    {
+        public ShrinkHandler() 
+        {
+            
+        }
     }
     
     
