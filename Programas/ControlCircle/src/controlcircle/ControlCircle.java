@@ -17,7 +17,7 @@ import javafx.stage.Stage;
  * @author Usuario
  */
 public class ControlCircle extends Application 
-{
+{ 
     
     @Override
     public void start(Stage primaryStage) 
