@@ -34,10 +34,11 @@ public class ControlCircle extends Application
         
         
         // Creación de los botones
-        Button bCrece = new Button("Enlarge");
-        Button bDecrece = new Button("Shrink");
+        Button bAumenta = new Button("Enlarge");
+        Button bDisminuye = new Button("Shrink");
         
-        
+        btnAumenta.setOnAction(new EnlargeHandler());
+        btnDisminuye.setOnAction(new ShrinkHandler());
         
         primaryStage.show();
     }
