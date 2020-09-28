@@ -32,7 +32,6 @@ public class ControlCircle extends Application
         circle.setStroke(Color.BLACK);
         circle.setFill(null);
         
-        hola
         
         // Creación de los botones
         Button bCrece = new Button("Enlarge");
