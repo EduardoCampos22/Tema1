@@ -70,6 +70,7 @@ public class ControlCircle extends Application
         
         Scene scene = new Scene(root, 300, 300);
         primaryStage.setScene(scene);
+        primaryStage.setTitle("ControlCircle");
         primaryStage.show();
     }
     
