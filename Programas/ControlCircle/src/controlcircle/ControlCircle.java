@@ -61,7 +61,7 @@ public class ControlCircle extends Application
         
         
         // Configuración del Layout de los botones
-        HBox hBox = new HBox();
+        HBox hBox = new HBox(8);     
         root.setBottom(hBox);
         hBox.getChildren().add(bAumenta);
         hBox.getChildren().add(bDisminuye);
