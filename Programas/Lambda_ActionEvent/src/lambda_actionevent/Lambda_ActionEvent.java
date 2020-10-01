@@ -31,18 +31,23 @@ public class Lambda_ActionEvent extends Application
         
         Label lFila1 = new Label("Annual Interest Rate: ");
         TextField tfFila1 = new TextField();
+        tfFila1.setAlignment(Pos.BASELINE_RIGHT);
         
         Label lFila2 = new Label("Number of Years: ");
         TextField tfFila2 = new TextField();
+        tfFila2.setAlignment(Pos.BASELINE_RIGHT);
         
         Label lFila3 = new Label("Loan Amount: ");
         TextField tfFila3 = new TextField();
+        tfFila3.setAlignment(Pos.BASELINE_RIGHT);
         
         Label lFila4 = new Label("Monthly Payment: ");
         TextField tfFila4 = new TextField();
+        tfFila4.setAlignment(Pos.BASELINE_RIGHT);
         
         Label lFila5 = new Label("Total Payment: ");
         TextField tfFila5 = new TextField();
+        tfFila5.setAlignment(Pos.BASELINE_RIGHT);
                 
         Button btn = new Button("Calculate");              
         
