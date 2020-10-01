@@ -82,7 +82,7 @@ public class Lambda_ActionEvent extends Application
             n = Float.valueOf(tfFila2.getText());
             h = Float.valueOf(tfFila3.getText());
             
-            m = (float) ((h * r) / (1 - Math.pow((h * r), (-12 * n))));
+            m = (float) ((h * r) / (1 - Math.pow((1 + r), (-12 * n))));
             tp = (float) (m * 12 * n);
             
             /*
