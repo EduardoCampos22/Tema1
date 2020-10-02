@@ -30,7 +30,8 @@ public class Lambda_MouseEvent extends Application
         Pane root = new Pane();
                 
         root.getChildren().add(text);        
-                
+        
+        // Creacion del evento que nos permitira mover el texto
         text.setOnMouseDragged(e -> {
             
             text.setX(e.getX());
