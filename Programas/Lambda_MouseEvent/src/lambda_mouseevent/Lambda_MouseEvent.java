@@ -21,12 +21,14 @@ public class Lambda_MouseEvent extends Application
     @Override
     public void start(Stage primaryStage) 
     {
-        Text text = new Text("Programming is fun");
-        
+        // Creacion del texto que se va a mover
+        Text text = new Text("Programming is fun");        
         text.setX(50);
         text.setY(50);
         
+        // Creación del panel donde ira el texto
         Pane root = new Pane();
+                
         root.getChildren().add(text);        
                 
         text.setOnMouseDragged(e -> {
