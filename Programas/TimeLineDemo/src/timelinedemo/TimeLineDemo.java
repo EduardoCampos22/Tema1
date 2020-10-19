@@ -60,14 +60,14 @@ public class TimeLineDemo extends Application
             { 
                 ballSpeedX *= -1; 
             }
-            pelota.setTranslateX(pelota.getTranslateX()+ ballSpeedX);
+            pelota.setTranslateX(pelota.getTranslateX() + ballSpeedX);
             
             
             if(pelota.getTranslateY() < 0 || pelota.getTranslateY() > 350)
             { 
                 ballSpeedY *= -1; 
             }
-            pelota.setTranslateY(pelota.getTranslateY()+ ballSpeedY);                       
+            pelota.setTranslateY(pelota.getTranslateY() + ballSpeedY);                       
             
         };
                 
